@@ -31,7 +31,6 @@ nav ul {
   }
 }
 
-
 nav ul li {
   margin: 0 10px;
 }
@@ -117,19 +116,18 @@ nav ul li a:hover {
 
 #biografia ul {
   padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 #biografia ul li {
   margin-bottom: 5px;
 }
 
-#biografia p {
-  margin-bottom: 10px;
-}
-
 /* Estilos de la sección de Contacto */
 #contacto {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 #contacto p {
@@ -171,7 +169,9 @@ nav ul li a:hover {
   height: auto;
   margin-bottom: 10px;
 }
-  
+
+/* Estilos para adaptar la página a diferentes dispositivos */
+@media screen and (max-width: 768px) {
   section {
     padding: 30px 10px;
   }
