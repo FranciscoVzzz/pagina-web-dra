@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Trebuchet, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f2f2f2;
@@ -64,8 +64,9 @@ footer {
 
 /* Estilos específicos */
 h1 {
-  color: #333;
+  color: #fff;
   font-size: 36px;
+  font-style: italic;
   margin: 0;
 }
 
@@ -78,6 +79,7 @@ h2 {
 p {
   color: #666;
   line-height: 1.6;
+  margin-bottom: 10px;
 }
 
 /* Estilos adicionales */
@@ -123,6 +125,7 @@ nav ul li a:hover {
   padding-left: 20px;
   margin-top: 10px;
   margin-bottom: 20px;
+  list-style: none;
 }
 
 #biografia ul li {
@@ -156,14 +159,14 @@ nav ul li a:hover {
   display: inline-block;
   padding: 10px 20px;
   border-radius: 4px;
-  background-color: #4287f5;
+  background-color: #333;
   color: #fff;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
 #contacto .contact-button:hover {
-  background-color: #5b9af9;
+  background-color: #555;
 }
 
 /* Estilos de imágenes */
@@ -191,5 +194,6 @@ nav ul li a:hover {
 
   p {
     font-size: 16px;
+    line-height: 1.8;
   }
 }
