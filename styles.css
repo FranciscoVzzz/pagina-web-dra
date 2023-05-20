@@ -20,7 +20,7 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: center;
-  background-color: #5a9cfb;
+  background-color: #f9f9f9;
   padding: 10px;
 }
 
@@ -41,12 +41,12 @@ nav ul li a:hover {
 
 section {
   padding: 50px 20px;
-  background-color: #72b3ff;
+  background-color: #fff;
   border-bottom: 1px solid #eee;
 }
 
 footer {
-  background-color: #5a9cfb;
+  background-color: #f9f9f9;
   padding: 20px;
   text-align: center;
 }
@@ -99,12 +99,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #72b3ff;
+  background-color: #ddd;
 }
 
 /* Estilos de la sección de Biografía */
 #biografia {
-  background-color: #5a9cfb;
+  background-color: #f7f7f7;
 }
 
 #biografia ul {
