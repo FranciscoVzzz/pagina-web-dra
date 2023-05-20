@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f2f2f2;
 }
 
 header {
@@ -26,6 +27,7 @@ nav ul {
 @media only screen and (max-width: 600px) {
   nav ul {
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   nav ul li {
@@ -50,13 +52,14 @@ section {
   padding: 50px 20px;
   background-color: #fff;
   border-bottom: 1px solid #eee;
-  text-align: center; /* Añadido para centrar el contenido */
+  text-align: center;
 }
 
 footer {
   background-color: #f9f9f9;
   padding: 20px;
   text-align: center;
+  color: #888;
 }
 
 /* Estilos específicos */
@@ -93,31 +96,27 @@ nav ul li:first-child a {
   font-weight: bold;
 }
 
-footer p {
-  font-size: 14px;
-  color: #888;
-}
-
 /* Estilos de los botones de navegación */
 nav ul li a {
   padding: 10px 20px;
   border-radius: 4px;
-  background-color: #eee;
+  background-color: #4287f5;
+  color: #fff;
   transition: background-color 0.3s ease;
   display: inline-block;
   margin: 5px;
 }
 
 nav ul li a:hover {
-  background-color: #ddd;
+  background-color: #5b9af9;
 }
 
 /* Estilos de la sección de Biografía */
 #biografia {
   background-color: #f7f7f7;
-  margin: 0 auto; /* Añadido para centrar la sección */
-  max-width: 600px; /* Añadido para limitar el ancho máximo */
-  text-align: center; /* Añadido para centrar el contenido */
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
 }
 
 #biografia ul {
@@ -157,14 +156,14 @@ nav ul li a:hover {
   display: inline-block;
   padding: 10px 20px;
   border-radius: 4px;
-  background-color: #333;
+  background-color: #4287f5;
   color: #fff;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
 #contacto .contact-button:hover {
-  background-color: #555;
+  background-color: #5b9af9;
 }
 
 /* Estilos de imágenes */
