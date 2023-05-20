@@ -50,6 +50,7 @@ section {
   padding: 50px 20px;
   background-color: #fff;
   border-bottom: 1px solid #eee;
+  text-align: center; /* Añadido para centrar el contenido */
 }
 
 footer {
@@ -114,6 +115,9 @@ nav ul li a:hover {
 /* Estilos de la sección de Biografía */
 #biografia {
   background-color: #f7f7f7;
+  margin: 0 auto; /* Añadido para centrar la sección */
+  max-width: 600px; /* Añadido para limitar el ancho máximo */
+  text-align: center; /* Añadido para centrar el contenido */
 }
 
 #biografia ul {
