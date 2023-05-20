@@ -7,6 +7,23 @@ body {
   padding: 0;
 }
 
+.button {
+  display: inline-block;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
 header {
   background-color: #4287f5;
   padding: 20px;
